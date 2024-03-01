@@ -1,0 +1,65 @@
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 1300px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  background-image: url(https://img.freepik.com/vektoren-kostenlos/weisser-abstrakter-hintergrund_23-2148806276.jpg?w=2000);
+  height:100%;
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  }
+}
+.LogoImage{
+    max-width:90px;
+    margin-left:40%;
+}
+.MenuSelect:hover{
+    background-color: gainsboro;
+    color:black;
+}
+.MenuSelect {
+  color: black;
+}
+.active .MenuSelected {
+  background-color: black;
+}
+.MenuSelectHeader {
+  background-image: url(https://img.freepik.com/vektoren-kostenlos/weisser-abstrakter-hintergrund_23-2148806276.jpg?w=2000);
+  width: 100%;
+  margin-left: -15px;
+  height: 100px;
+  margin-top: 0px;
+}
+.col-sm-9 .SearchMenu {
+  background-image: url(https://img.freepik.com/vektoren-kostenlos/weisser-abstrakter-hintergrund_23-2148806276.jpg?w=2000);
+  border-radius: 19px;
+  text-align: center;
+  border:black 2px solid;
+}
+.content {
+  background-image: url(https://wallpapercrafter.com/desktop/95116-abstract-dark-black-minimalism-minimalist-hd-4k.jpg)
+}
+.col-sm-3 .well{
+    background-color:lightgrey;
+}
+.col-sm-3 .well:hover {
+    cursor:pointer;
+  margin-top: -7px;
+  background-color: darkgray;
+  color: white;
+}
+.Container-Content {
+  border-radius: 20px;
+  background-image: url(https://img.freepik.com/vektoren-kostenlos/weisser-abstrakter-hintergrund_23-2148806276.jpg?w=2000);
+}
+
+.well {
+  border-radius: 15px;
+}
